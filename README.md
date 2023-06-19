@@ -27,8 +27,11 @@
 
 ---
 
+
 This project is a basic web application that allows users to sign in, sign up, and manage their profile information. Additionally, users can create posts and view posts created by other users.
 The application uses authentication tokens to secure user data and ensure that only authenticated users can access certain features of the application.
+
+
 ---
 
 
