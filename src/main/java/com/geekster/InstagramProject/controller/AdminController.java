@@ -18,22 +18,22 @@ public class AdminController {
     AdminService adminService;
 
 
-    @PostMapping("/signup")
-    public SignUpOutput signUp(@Valid @RequestBody Admin signUpDto)
-    {
-        return adminService.signUp(signUpDto);
-    }
+//    @PostMapping("/signup")
+//    public SignUpOutput signUp(@Valid @RequestBody Admin signUpDto)
+//    {
+//        return adminService.signUp(signUpDto);
+//    }
+//
+//    @PostMapping("/signin")
+//    public SignInOutput signIn(@Valid @RequestBody SignInInput signInDto)
+//    {
+//        return adminService.signIn(signInDto);
+//    }
 
-    @PostMapping("/signin")
-    public SignInOutput signIn(@Valid @RequestBody SignInInput signInDto)
-    {
-        return adminService.signIn(signInDto);
-    }
-
-    @PutMapping("/user/{id}/{blueTick}")
-    String toggleBlueTick(@PathVariable Long id,@PathVariable boolean blueTick)
-    {
-        return adminService.toggleBlueTick(id,blueTick);
-    }
+//    @PutMapping("/user/{id}/{blueTick}")
+//    String toggleBlueTick(@PathVariable Long id,@PathVariable boolean blueTick)
+//    {
+//        return adminService.toggleBlueTick(id,blueTick);
+//    }
 
 }
